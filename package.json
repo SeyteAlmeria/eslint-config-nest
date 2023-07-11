@@ -1,6 +1,6 @@
 {
   "name": "@seyte/eslint-config-nest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Configuración eslint para proyectos backend con NestJS de Seyte",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,10 @@
   ],
   "author": "Seyte",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rubenfgr/eslint-config-nest"
+  },
   "devDependencies": {
     "@seyte/eslint-plugin-nest-decorator-scope-request": "^1.0.1",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
