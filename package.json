@@ -1,0 +1,28 @@
+{
+  "name": "@seyte/eslint-config-nest",
+  "version": "1.0.0",
+  "description": "Configuración eslint para proyectos backend con NestJS de Seyte",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslint-config-nest"
+  ],
+  "author": "Seyte",
+  "license": "MIT",
+  "devDependencies": {
+    "@seyte/eslint-plugin-nest-decorator-scope-request": "^1.0.1",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^3.0.0"
+  },
+  "peerDependencies": {
+    "@seyte/eslint-plugin-nest-decorator-scope-request": ">=1.0.0"
+  }
+}
