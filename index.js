@@ -5,10 +5,7 @@ module.exports = {
     tsconfigRootDir: __dirname,
     sourceType: "module",
   },
-  plugins: [
-    "@typescript-eslint/eslint-plugin",
-    "@seyte/eslint-plugin-nest-decorator-scope-request",
-  ],
+  plugins: ["@typescript-eslint/eslint-plugin", "nest-decorator-scope-request"],
   extends: [
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
@@ -24,6 +21,6 @@ module.exports = {
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-explicit-any": "off",
-    "@seyte/nest-decorator-scope-request": "error",
+    "nest-decorator-scope-request": "error",
   },
 };
