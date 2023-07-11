@@ -1,6 +1,6 @@
 {
   "name": "@seyte/eslint-config-nest",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Configuración eslint para proyectos backend con NestJS de Seyte",
   "main": ".eslintrc.js",
   "scripts": {
@@ -23,5 +23,12 @@
     "@typescript-eslint/parser": "^6.0.0",
     "eslint": "^8.44.0",
     "typescript": "^5.1.6"
+  },
+  "peerDependencies": {
+    "@seyte/eslint-plugin-nest-decorator-scope-request": ">=1.0.2",
+    "@typescript-eslint/eslint-plugin": ">=6.0.0",
+    "@typescript-eslint/parser": ">=6.0.0",
+    "eslint": ">=8.44.0",
+    "typescript": ">=5.1.6"
   }
 }
