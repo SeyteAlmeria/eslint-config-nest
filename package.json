@@ -1,6 +1,6 @@
 {
   "name": "@seyte/eslint-config-nest",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Configuración eslint para proyectos backend con NestJS de Seyte",
   "main": "index.js",
   "scripts": {
