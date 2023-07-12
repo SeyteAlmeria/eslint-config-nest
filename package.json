@@ -1,6 +1,6 @@
 {
   "name": "@seyte/eslint-config-nest",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Configuración eslint para proyectos backend con NestJS de Seyte",
   "main": ".eslintrc.js",
   "scripts": {
@@ -31,7 +31,7 @@
     "@typescript-eslint/eslint-plugin": ">=3.0.0",
     "@typescript-eslint/parser": ">=3.0.0",
     "eslint": ">=3.0.0",
-    "@seyte/eslint-plugin-nest_decorator_scope_request": ">=1.1.1",
+    "@seyte/eslint-plugin-nest_decorator_scope_request": ">=2.0.0",
     "typescript": ">=4.1.6"
   }
 }
