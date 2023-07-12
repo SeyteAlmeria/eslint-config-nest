@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-nest",
+  "name": "eslint-config-nest",
   "version": "1.2.0",
   "description": "Configuración eslint para proyectos backend con NestJS de Seyte",
   "main": ".eslintrc.js",
