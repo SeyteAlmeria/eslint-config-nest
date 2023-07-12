@@ -1,6 +1,6 @@
 {
-  "name": "@seyte/eslint-config-nest",
-  "version": "1.1.1",
+  "name": "eslint-plugin-nest",
+  "version": "1.2.0",
   "description": "Configuración eslint para proyectos backend con NestJS de Seyte",
   "main": ".eslintrc.js",
   "scripts": {
@@ -8,8 +8,8 @@
   },
   "keywords": [
     "eslint",
-    "eslint-config",
-    "eslint-config-nest"
+    "eslint-plugin",
+    "eslint-plugin-nest"
   ],
   "author": "Seyte",
   "license": "MIT",
@@ -18,17 +18,20 @@
     "url": "https://github.com/rubenfgr/eslint-config-nest"
   },
   "devDependencies": {
-    "@seyte/eslint-plugin-nest-decorator-scope-request": "^1.0.2",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-nest_decorator_scope_request": "^1.0.4",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.0",
     "typescript": "^5.1.6"
   },
   "peerDependencies": {
-    "@seyte/eslint-plugin-nest-decorator-scope-request": ">=1.0.2",
     "@typescript-eslint/eslint-plugin": ">=6.0.0",
     "@typescript-eslint/parser": ">=6.0.0",
     "eslint": ">=8.44.0",
+    "eslint-plugin-nest_decorator_scope_request": ">=1.0.0",
     "typescript": ">=5.1.6"
   }
 }
