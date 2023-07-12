@@ -6,7 +6,7 @@ module.exports = {
     "plugin:prettier/recommended",
   ],
   parser: "@typescript-eslint/parser",
-  plugins: ["@typescript-eslint", "nest_decorator_scope_request"],
+  plugins: ["@typescript-eslint", "@seyte/nest_decorator_scope_request"],
   root: true,
   rules: {
     "@typescript-eslint/interface-name-prefix": "off",
@@ -16,6 +16,6 @@ module.exports = {
     "no-case-declarations": "off",
     "@typescript-eslint/adjacent-overload-signatures": "off",
     "@typescript-eslint/no-unused-vars": "off",
-    "nest_decorator_scope_request/rule": "error",
+    "@seyte/nest_decorator_scope_request/rule": "warn",
   },
 };
